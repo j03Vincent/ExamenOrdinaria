@@ -1,4 +1,4 @@
-package Model;
+package FilmCatalogue.Model;
 
 public class Film {
     private String titulo, director, actor, genero, duracion;
