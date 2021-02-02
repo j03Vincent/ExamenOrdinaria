@@ -1,4 +1,4 @@
-package FilmCatalogue.Controller;
+package FilmCatalogue.apps;
 
 import FilmCatalogue.Model.Film;
 import java.util.*;
@@ -6,8 +6,7 @@ import java.util.*;
 public class FilmCatalogue {
     
     private Set<Film> movies;
-    private String catalogue;
-    public boolean toString;
+    private final String catalogue;
     
     public FilmCatalogue(String nombre) {
         this.catalogue = nombre;
@@ -100,7 +99,3 @@ public class FilmCatalogue {
         return -1;
     }
 }
-
-
-
-
